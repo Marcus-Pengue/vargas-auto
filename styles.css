@@ -621,3 +621,33 @@ p  { margin: 0 0 1em; }
   margin-top: 0.2rem;
   word-break: break-word;
 }
+
+/* Top bar email link */
+.topbar__email { color: var(--blue-deep); font-weight: 700; }
+.topbar__email:hover { color: var(--blue-deep); text-decoration: underline; }
+
+/* Header CTA group */
+.header__ctas { display: flex; align-items: center; gap: 0.6rem; }
+
+/* Ghost button for dark/navy header (light outline) */
+.btn--ghost-light {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.btn--ghost-light:hover {
+  background: var(--yellow);
+  color: var(--blue-deep);
+  border-color: var(--yellow);
+  text-decoration: none;
+}
+
+/* On small screens, the header CTAs already hide via existing .header__cta rule;
+   keep the email button hidden there too so the header stays clean */
+@media (max-width: 900px) {
+  .header__ctas { display: none; }
+}
+
+/* Top bar address (now a Maps link) */
+.topbar__addr { color: var(--blue-deep); font-weight: 500; }
+.topbar__addr:hover { color: var(--blue-deep); text-decoration: underline; }
