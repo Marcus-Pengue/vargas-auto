@@ -612,3 +612,12 @@ p  { margin: 0 0 1em; }
   .rating-summary { flex-direction: column; gap: 0.4rem; padding: 1rem; border-radius: 8px; }
   .reviews-cta .btn { width: 100%; }
 }
+
+/* Secondary (legacy) email in contact card */
+.info-list__alt {
+  display: block;
+  font-size: 0.82rem;
+  opacity: 0.7;
+  margin-top: 0.2rem;
+  word-break: break-word;
+}

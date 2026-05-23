@@ -94,7 +94,7 @@
         'Details:\n' + message + '\n\n' +
         'Thanks!';
 
-      var mailto = 'mailto:vargasautoserviceslc@qwestoffice.net'
+      var mailto = 'mailto:vargasautoserviceinc@gmail.com'
         + '?subject=' + encodeURIComponent(subject)
         + '&body=' + encodeURIComponent(body);
 
